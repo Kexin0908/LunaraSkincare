@@ -272,7 +272,7 @@ if (product) {
     setCookie("lunara_cart", JSON.stringify(cart), 7); // Expires in 7 days
     
     alert("Product added to cart!");
-    window.location.href = "cart.html"; // redirect to cart
+    window.location.href = "Cart.html"; // redirect to cart
   });
 
 } else {
@@ -281,4 +281,5 @@ if (product) {
       ❌ Product not found. <a href="products.html">Go back to shop</a>.
     </div>
   `;
+
 }
